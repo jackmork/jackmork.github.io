@@ -27,3 +27,11 @@ function draw() {
   //   loop();
   // }
 }
+
+function mousePressed() {
+  if (isLooping()) {
+    noLoop();
+  }
+  else {
+    loop();
+  }
