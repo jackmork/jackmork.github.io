@@ -35,3 +35,4 @@ function mousePressed() {
   else {
     loop();
   }
+}
