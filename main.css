@@ -1,0 +1,245 @@
+header {
+    width: 90%;
+}
+
+body {
+    color: rgb(143, 68, 68);
+    padding: 10px;
+    background: linear-gradient(0deg, #d9e595, rgb(216, 140, 140), #d9f056);
+    background-size: 300% 300%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    color:rgb(1, 114, 99);
+}
+
+div {
+    margin:0;
+    padding:0;
+    height: 15px;
+}
+
+p {
+    color: rgb(139, 20, 20);
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin:0px;
+    font-size: 15px;
+}
+
+li {
+    padding:5px;
+}
+
+nav li a {
+    color:rgb(0, 168, 146);
+}
+
+.clicked {
+    color:rgb(1, 134, 117);
+    background:linear-gradient(180deg, rgb(247, 241, 158), rgb(199, 199, 67));
+    text-decoration: underline;
+    border-style: inset;
+    border-color: rgb(197, 197, 97);
+}
+
+nav {
+    border-style:outset;
+    border-radius: 5px;
+    border-color: rgb(194, 109, 109);
+    padding: 10px;
+    background: linear-gradient(180deg,rgb(255, 163, 163),  rgb(209, 111, 111), rgb(209, 111, 111));
+    background-size: 200% 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align-last: left;
+    width: 98%;
+    margin:0 auto;
+}
+
+nav li {
+    background: linear-gradient(180deg, rgb(247, 241, 158), #d8f14b);
+    list-style-type: none;
+    display: inline-block;
+    width: 15%;
+    padding: 5px 10px;
+    margin: 10px 20px 2px 5px;
+    border-style:outset;
+    border-color: rgb(212, 212, 90);
+    font-size: 15px;
+    text-align-last: center;
+}
+
+nav ul  {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.header {
+    text-decoration:dashed;
+}
+
+#page-container {
+    min-height: 100vh;
+    margin-top: 10px;
+    padding:0;
+    width: 90%;
+  }
+  
+#content-wrap {
+    margin:0;
+    padding:0;
+    padding-bottom: 2.5rem;    /* Footer height */
+    font-size: 20px;
+    position: relative;
+    list-style-type: none;
+    display:flex;
+    width: 90%;
+  }
+
+#footer {
+    margin:0;
+    padding:0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+
+    display: flex;
+  } 
+
+iframe {
+    border-style:outset;
+    border-radius: 5px;
+    border-color: rgb(194, 109, 109);
+    padding: 0px;
+    margin: 5px;
+}
+
+body h1, body h2 {
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(139, 20, 20);
+}
+
+.music  ul a, .music   {
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+
+img {
+    width:500px;
+    height: 250px;
+    border-style:outset;
+    border-radius: 5px;
+    border-color: rgb(194, 109, 109);
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+}
+
+#content-wrap-music {
+    margin:0 auto;
+    padding-bottom: 2rem;    /* Footer height */
+    font-size: 20px;
+    position: relative;
+    display: inline;
+  }
+
+.artpics {
+    width:450px;
+    height: 450px;
+    border-style:outset;
+    border-radius: 5px;
+    border-color: rgb(194, 109, 109);
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+}
+.art p {
+    padding: 3px;
+}
+
+.musicpics {
+    width: 15%;
+    height:25%;
+}
+
+video {
+    width:445px;
+    height:250px;
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient(0deg, #d9e595, rgb(194, 109, 109), #d9f056);
+    position: relative;
+    border-style:outset;
+    border-radius: 5px;
+    border-color: rgb(194, 109, 109);
+ }
+ 
+ .projecthead {
+     text-decoration: underline;
+     margin:0;
+     padding: 0;
+ }
+/* The animation code */
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 25% 25%;
+	}
+	100% {
+		background-position: 50% 50%;
+	}
+}
+  
+  /* The element to apply the animation to */
+.BG {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: linear-gradient(90deg, #ccd887, rgb(228, 163, 163), #d9f056);
+    animation-name: gradientBG;
+    animation-duration: 15s ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+
+.homeart {
+    padding: 0;
+    margin: 10px;
+    border-style: outset;
+    border-color: aqua;
+    border-width: 3px;
+    width: 400px;
+    height: 400px;
+    float:left;
+}
+
+.p5des {
+    padding: 10px;
+    margin:5px;
+    float:left;
+    font-size: 20px;
+}
+
+#homepage {
+    padding: 0 ;
+    margin: 10px;
+    font-size: 30px;
+}
