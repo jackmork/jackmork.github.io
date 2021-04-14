@@ -20,19 +20,6 @@ function draw() {
     point(380,.5*i);
     point(420,.5*i);
   }
-  // if (y>50) {
-  //   noLoop();
-  // }
-  // else {
-  //   loop();
-  // }
+
 }
 
-function mousePressed() {
-  if (isLooping()) {
-    noLoop();
-  }
-  else {
-    loop();
-  }
-}
