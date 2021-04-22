@@ -226,6 +226,8 @@ video {
     /* border-style: outset;
     border-color: aqua;
     border-width: 3px; */
+    width: 800px;
+    height: 380px;
     float:left;
 }
 
