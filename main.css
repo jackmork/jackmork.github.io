@@ -223,11 +223,11 @@ video {
 .homeart {
     padding: 0;
     margin: 10px;
-    border-style: outset;
+    /* border-style: outset;
     border-color: aqua;
-    border-width: 3px;
+    border-width: 3px; */
     width: 800px;
-    height: 400px;
+    height: 390px;
     float:left;
 }
 
