@@ -8,9 +8,9 @@ function draw() {
   strokeWeight(4);
 
   let phase1 = 200;
-  let amp1 = 100;
+  let amp1 = 110;
   let phase2 = 201.5;
-  let amp2 = 85;
+  let amp2 = 95;
   let k=10;
   for (i=0;i<2*width;i++) {
   let y=amp1*sin(phase1*frameCount-k*i);
@@ -21,4 +21,11 @@ function draw() {
       point(i/2, 200);
     pop();
   }
+  stroke(10, 228, 228);
+  strokeWeight(5);
+  line(0,0, 0, 800);
+  line(0,0, 800, 0);
+  stroke(50, 178, 228);
+  line(800,400, 0, 400);
+  line(800, 400, 800, 0);
 }
