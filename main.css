@@ -246,7 +246,7 @@ video {
 
 .film {
     margin-left: 200px;
-    
+    float:left;
 }
 
 .showcase {
