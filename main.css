@@ -248,3 +248,7 @@ video {
     float:left;
     margin-top: 10%;
 }
+
+.showcase {
+    float:right;
+}
