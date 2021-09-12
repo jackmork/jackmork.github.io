@@ -242,3 +242,7 @@ video {
     margin: 5px;
     font-size: 30px;
 }
+
+.film {
+    float:inline-end;
+}
