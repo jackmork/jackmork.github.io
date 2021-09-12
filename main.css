@@ -234,6 +234,7 @@ video {
 .p5des {
     padding: 5px;
     margin:5px;
+    float:inline-start;
     font-size: 20px;
 }
 
