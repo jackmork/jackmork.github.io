@@ -246,7 +246,7 @@ video {
 
 .film {
     float:left;
-    margin-left: 10%;
+    margin-left: 200px;
 }
 
 .showcase {
@@ -257,5 +257,4 @@ video {
 
 .rutherford {
     font-size: 20px;
-    padding-left: 30%;
 }
