@@ -251,4 +251,6 @@ video {
 
 .showcase {
     float:right;
+    margin: 0;
+    padding: 0;
 }
