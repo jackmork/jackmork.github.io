@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #efcd65, #fc9b9b, #f78b6b, rgb(251,144,56));
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+.kings-greeting {
+    white-space: nowrap;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    color: #FF521B;
+    font-style: bold;
+    font-family: "Poppins";
+    font-size: 30px;
+}
+
+.header-container {
+    /*add image for background of this naviagtion bar*/
+    width: 98vw;
+    height: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: rgb(241, 128, 36);
+    border: 1px solid #3a4b58;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navigation-button {
+    width: 20%;
+    height: 70%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 5px;
+    background: rgb(103,103,139);
+    background: linear-gradient(166deg, rgba(103,103,139,0.7113752122241086) 0%, rgba(13,14,24,1) 45%, rgba(2,3,24,1) 100%);
+    border: 0px solid #000000;
+    border-radius: 10px;
+    color: #FF521B;
+    font-style: Bold;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Poppins';
+    color: #1e4d79;
+    margin-left: 30px;
+    margin-top: 30px;
+}
