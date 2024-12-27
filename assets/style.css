@@ -79,3 +79,13 @@ p {
     margin-top: 1vw;
     margin-bottom: 50px;
 }
+
+.art-content {
+    display: inline-block;
+    width: 25vw;
+    height: 50vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 50px;
+}
